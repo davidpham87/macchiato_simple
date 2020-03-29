@@ -1,0 +1,16 @@
+{:paths ["src"]
+
+ :deps
+ {macchiato/core {:mvn/version "0.2.16"}
+  macchiato/defaults {:mvn/version "0.0.3"}
+  macchiato/env {:mvn/version "0.0.6"}
+  macchiato/http {:mvn/version "0.1.1"}
+  macchiato/hiccups {:mvn/version "0.4.1"}
+  metosin/reitit {:mvn/version "0.4.2"}
+  org.clojure/clojure {:mvn/version "1.10.1"}
+  org.clojure/clojurescript {:mvn/version "1.10.597"}}
+
+ :aliases
+ {:cljs {:extra-deps {thheller/shadow-cljs {:mvn/version "2.8.94"}
+                      cider/cider-nrepl {:mvn/version "0.25.0-SNAPSHOT"}
+                      cider/piggieback {:mvn/version "0.4.2"}}}}}

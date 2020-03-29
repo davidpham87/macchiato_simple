@@ -1,0 +1,13 @@
+;; shadow-cljs configuration
+{:deps {:aliases [:cljs]}
+
+ :nrepl {:port 3333}
+
+ :dev-http {8080 "public"}
+
+ :builds
+ {:app
+  {:target :node-script
+   :output-to "target/server.js"
+   :main git.ci.core/main
+   :release {:compiler-options {:optimizations :simple}}}}}

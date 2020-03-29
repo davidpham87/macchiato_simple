@@ -1,0 +1,23 @@
+{
+  "name": "macchiato_simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookies": "^0.8.0",
+    "etag": "^1.8.1",
+    "multiparty": "^4.2.1",
+    "random-bytes": "^1.0.0",
+    "simple-encryptor": "^3.0.0",
+    "ws": "^7.2.3",
+    "xregexp": "^4.3.0"
+  },
+  "devDependencies": {
+    "source-map-support": "^0.5.16"
+  }
+}
